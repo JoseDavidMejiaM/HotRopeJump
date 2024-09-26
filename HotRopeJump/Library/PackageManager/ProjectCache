@@ -5,22 +5,22 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638629040758233717
-    m_Hash: 3219194938
+      ticks: 638629697814389381
+    m_Hash: 1131477615
   m_LockFileStatus:
     m_FilePath: C:/Users/Janus/Documents/GitHub/HotRopeJump/HotRopeJump/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638629040758365079
-    m_Hash: 3766408702
+      ticks: 638629697923637216
+    m_Hash: 2402534220
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/Janus/Documents/GitHub/HotRopeJump/HotRopeJump/Packages
-m_EditorVersion: 2022.3.33f1 (b2c853adf198)
+m_EditorVersion: 2022.3.47f1 (88c277b85d21)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.5.1
   testable: 0
@@ -119,11 +119,8 @@ m_ResolvedPackages:
     - 2.4.4
     - 2.5.1
     compatible:
-    - 2.3.1
-    - 2.4.3
-    - 2.4.4
     - 2.5.1
-    recommended: 2.3.1
+    recommended: 2.5.1
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -161,7 +158,7 @@ m_ResolvedPackages:
     revision: 470a7a1321fe499cf5055d6b1d64da3a08c8dcbc
     path: 
   unityLifecycle:
-    version: 2.3.1
+    version: 2.5.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -224,7 +221,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.28
+    version: 3.0.31
   - name: com.unity.ide.vscode
     version: 1.2.5
   - name: com.unity.editorcoroutines
@@ -232,7 +229,7 @@ m_ResolvedPackages:
   - name: com.unity.performance.profile-analyzer
     version: 1.2.2
   - name: com.unity.testtools.codecoverage
-    version: 1.2.5
+    version: 1.2.6
   - name: com.unity.settings-manager
     version: 2.0.1
   keywords: []
@@ -263,12 +260,12 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-- packageId: com.unity.textmeshpro@3.0.6
+- packageId: com.unity.textmeshpro@3.0.7
   testable: 0
   isDirectDependency: 1
-  version: 3.0.6
+  version: 3.0.7
   source: 1
-  resolvedPath: C:\Users\Janus\Documents\GitHub\HotRopeJump\HotRopeJump\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: C:\Users\Janus\Documents\GitHub\HotRopeJump\HotRopeJump\Library\PackageCache\com.unity.textmeshpro@3.0.7
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -277,7 +274,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Text Rendering
-  type: asset
+  type: assets
   description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
     replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -398,7 +395,6 @@ m_ResolvedPackages:
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
-    - 3.0.6
     - 3.0.7
     - 3.0.8
     - 3.0.9
@@ -442,16 +438,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637547111200000000
-  documentationUrl: 
+  datePublishedTicks: 638410382150000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.textmeshpro@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-    revision: 01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899
+    revision: 5c364f204e10eaec84fcbff640ad4d833774c1ed
     path: 
   unityLifecycle:
-    version: 3.0.6
+    version: 3.0.7
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -2824,12 +2820,12 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-- packageId: com.unity.ide.rider@3.0.28
+- packageId: com.unity.ide.rider@3.0.31
   testable: 0
   isDirectDependency: 0
-  version: 3.0.28
+  version: 3.0.31
   source: 1
-  resolvedPath: C:\Users\Janus\Documents\GitHub\HotRopeJump\HotRopeJump\Library\PackageCache\com.unity.ide.rider@3.0.28
+  resolvedPath: C:\Users\Janus\Documents\GitHub\HotRopeJump\HotRopeJump\Library\PackageCache\com.unity.ide.rider@3.0.31
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -2890,7 +2886,6 @@ m_ResolvedPackages:
     - 3.0.28
     - 3.0.31
     compatible:
-    - 3.0.28
     - 3.0.31
     recommended: 3.0.31
     deprecated: []
@@ -2911,16 +2906,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638447139880000000
+  datePublishedTicks: 638548308080000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: f4880c72477e9bbd7321c0dbda4428fa10d916df
+    revision: ccd778a2275ff09f1a83bc924cfb2fb4d5b63566
     path: 
   unityLifecycle:
-    version: 3.0.28
+    version: 3.0.31
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3275,12 +3270,12 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-- packageId: com.unity.testtools.codecoverage@1.2.5
+- packageId: com.unity.testtools.codecoverage@1.2.6
   testable: 0
   isDirectDependency: 0
-  version: 1.2.5
+  version: 1.2.6
   source: 1
-  resolvedPath: C:\Users\Janus\Documents\GitHub\HotRopeJump\HotRopeJump\Library\PackageCache\com.unity.testtools.codecoverage@1.2.5
+  resolvedPath: C:\Users\Janus\Documents\GitHub\HotRopeJump\HotRopeJump\Library\PackageCache\com.unity.testtools.codecoverage@1.2.6
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -3331,7 +3326,6 @@ m_ResolvedPackages:
     - 1.2.5
     - 1.2.6
     compatible:
-    - 1.2.5
     - 1.2.6
     recommended: 1.2.6
     deprecated: []
@@ -3366,16 +3360,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638386640140000000
+  datePublishedTicks: 638575857900000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.testtools.codecoverage.git
-    revision: afeb9febf6597fcc31c99ca116d6a82b1e97b9f5
+    revision: 959db8ff97eedf9b211ad5cf320b87ac01f1e90f
     path: 
   unityLifecycle:
-    version: 1.2.5
+    version: 1.2.6
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3518,4 +3512,4 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-m_BuiltInPackagesHash: 4b4df7ab180286a0a57597df90b4eec2c1ee5cc5
+m_BuiltInPackagesHash: c3eb25d0497c2388653acee44055294647de272e
