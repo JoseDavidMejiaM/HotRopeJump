@@ -1626,8 +1626,8 @@
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 15759,
-      "PayloadLength": 26,
-      "PayloadDebugContentSnippet": "DefaultCompany\nHotropejump",
+      "PayloadLength": 23,
+      "PayloadDebugContentSnippet": "ToposCiegos\nHotropejump",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"

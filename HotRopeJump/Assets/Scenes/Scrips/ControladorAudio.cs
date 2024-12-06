@@ -7,6 +7,7 @@ public class ControladorAudio : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip musicaFondo;
     public AudioClip musicaVictoria;
+    public AudioClip musicaDerrota;
 
     void Start()
     {
@@ -27,10 +28,19 @@ public class ControladorAudio : MonoBehaviour
         audioSource.Stop();
 
         audioSource.mute = false;
-
-        // Cambiar la música a la de victoria
         audioSource.clip = musicaVictoria;
-        audioSource.loop = false; // Reproducir una sola vez
+        audioSource.loop = false;
         audioSource.Play();
     }
+
+    public void ReproducirMusicaDerrota()
+    {
+        audioSource.Stop();
+
+        audioSource.mute = false;
+        audioSource.clip = musicaDerrota;
+        audioSource.loop = false;
+        audioSource.Play();
+    }
+
 }

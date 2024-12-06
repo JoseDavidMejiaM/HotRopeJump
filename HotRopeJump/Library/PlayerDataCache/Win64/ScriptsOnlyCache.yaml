@@ -258,7 +258,7 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreakMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 850af1c8a386174be1cdbb3a0e1a70a5
+      Hash: 500c06df2c682123bf9a2044184e72b2
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ControladorAudio
@@ -1026,7 +1026,7 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: 4d54fea40718dfb742c2c6f3c0812629
+      Hash: d63c827d412b6226093803c73035e49a
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ControladorJuego

@@ -10,6 +10,7 @@ public class ControladorJuego : MonoBehaviour
 
     private ControladorAudio controladorAudio; // Referencia al controlador de audio
     public GameObject cuerdaDeFuego;
+    public bool ganar;
 
     void Start()
     {
@@ -25,6 +26,7 @@ public class ControladorJuego : MonoBehaviour
         if (personajesVivos.Length == 0)
         {
             Debug.Log("Reproducir Musica Derrota");
+            ganar= false;
             textoGanador.text = "¡No hay ganadores!";
             Destroy(cuerdaDeFuego, 1f);
             Invoke("LlamarMetodoTerminar", 4f);
@@ -32,7 +34,8 @@ public class ControladorJuego : MonoBehaviour
         // Si solo queda uno vivo, termina el juego y muestra el ganador
         else if (personajesVivos.Length == 1)
         {
-            Debug.Log("Reproducir Musica Victoria");            
+            Debug.Log("Reproducir Musica Victoria");  
+            ganar=true;
             string ganador = personajesVivos[0].name;
             Destroy(cuerdaDeFuego, 1f);
             textoGanador.text = "¡El ganador es: " + ganador + "!";
@@ -42,7 +45,13 @@ public class ControladorJuego : MonoBehaviour
 
     public void LlamarMetodoTerminar()
     {
-        controladorAudio.ReproducirMusicaVictoria();
+        if (ganar is true)
+        {
+            controladorAudio.ReproducirMusicaVictoria();
+        }
+        else {
+            controladorAudio.ReproducirMusicaDerrota();
+        }
         menuInicio.TerminarJuego();
     }
 }

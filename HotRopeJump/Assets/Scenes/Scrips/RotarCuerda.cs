@@ -10,17 +10,17 @@ public class RotarCuerda : MonoBehaviour
     public float minVelocidad = 50f;         // Velocidad mínima después de reducirla aleatoriamente
     public float tiempoParaCambiar = 10f;    // Tiempo en segundos para cambiar la velocidad aleatoriamente
 
-    public ContadorVueltas contadorVueltas; // Referencia al script de contador de vueltas
+    public ContadorVueltas contadorVueltas;
 
-    private float tiempoActual = 0f;         // Contador para el cambio de velocidad
-    private float rotacionActual = 0f;       // Contador de rotación actual
+    private float tiempoActual = 0f;
+    private float rotacionActual = 0f;
 
     void FixedUpdate()
     {
         // Rotar la cuerda en el eje X
         transform.Rotate(Vector3.right * velocidadRotacion * Time.fixedDeltaTime);
 
-        // Aumentar gradualmente la velocidad de rotación hasta alcanzar la velocidad máxima
+        // Aumentar la velocidad de rotación
         velocidadRotacion = Mathf.Min(velocidadRotacion + aumentoVelocidad * Time.fixedDeltaTime, maxVelocidad);
 
         // Controlar el cambio de velocidad aleatorio después de un tiempo
