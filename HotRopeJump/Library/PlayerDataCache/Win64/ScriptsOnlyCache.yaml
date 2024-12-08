@@ -100,47 +100,47 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1574}
+      Script: {instanceID: 1576}
     - Class: 114
-      Script: {instanceID: 2244}
+      Script: {instanceID: 2246}
     - Class: 114
-      Script: {instanceID: 2574}
+      Script: {instanceID: 2576}
     - Class: 114
-      Script: {instanceID: 2722}
+      Script: {instanceID: 2724}
     - Class: 114
-      Script: {instanceID: 2778}
+      Script: {instanceID: 2780}
     - Class: 114
-      Script: {instanceID: 3066}
+      Script: {instanceID: 3068}
     - Class: 114
-      Script: {instanceID: 3208}
+      Script: {instanceID: 3210}
     - Class: 114
-      Script: {instanceID: 4278}
+      Script: {instanceID: 4280}
     - Class: 114
-      Script: {instanceID: 4400}
+      Script: {instanceID: 4402}
     - Class: 114
-      Script: {instanceID: 4822}
+      Script: {instanceID: 4824}
     - Class: 114
-      Script: {instanceID: 4882}
+      Script: {instanceID: 4884}
     - Class: 114
-      Script: {instanceID: 5228}
+      Script: {instanceID: 5230}
     - Class: 114
-      Script: {instanceID: 5530}
+      Script: {instanceID: 5532}
     - Class: 114
-      Script: {instanceID: 5576}
+      Script: {instanceID: 5578}
     - Class: 114
-      Script: {instanceID: 5604}
+      Script: {instanceID: 5606}
     - Class: 114
-      Script: {instanceID: 5998}
+      Script: {instanceID: 6000}
     - Class: 114
-      Script: {instanceID: 6152}
+      Script: {instanceID: 6154}
     - Class: 114
-      Script: {instanceID: 6324}
+      Script: {instanceID: 6326}
     - Class: 114
-      Script: {instanceID: 6534}
+      Script: {instanceID: 6536}
     - Class: 114
-      Script: {instanceID: 6604}
+      Script: {instanceID: 6606}
     - Class: 114
-      Script: {instanceID: 7452}
+      Script: {instanceID: 7454}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1069,4 +1069,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Janus/Downloads/jue/Hotropejump.exe
+  playerPath: C:/Users/Janus/Downloads/Nueva carpeta/Hotropejump.exe
